@@ -1,0 +1,30 @@
+C:\Users\kk693\Desktop\AI冷氣\windows_form_cs_1\windows_form_cs_1\obj\Debug\windows_form_cs_1.csprojAssemblyReference.cache
+C:\Users\kk693\Desktop\AI冷氣\windows_form_cs_1\windows_form_cs_1\obj\Debug\windows_form_cs_1.Form1.resources
+C:\Users\kk693\Desktop\AI冷氣\windows_form_cs_1\windows_form_cs_1\obj\Debug\windows_form_cs_1.Properties.Resources.resources
+C:\Users\kk693\Desktop\AI冷氣\windows_form_cs_1\windows_form_cs_1\obj\Debug\windows_form_cs_1.csproj.GenerateResource.cache
+C:\Users\kk693\Desktop\AI冷氣\windows_form_cs_1\windows_form_cs_1\obj\Debug\windows_form_cs_1.csproj.CoreCompileInputs.cache
+C:\Users\kk693\Desktop\AI冷氣\windows_form_cs_1\windows_form_cs_1\bin\Debug\Air-conditioning timer.exe.config
+C:\Users\kk693\Desktop\AI冷氣\windows_form_cs_1\windows_form_cs_1\bin\Debug\Air-conditioning timer.exe
+C:\Users\kk693\Desktop\AI冷氣\windows_form_cs_1\windows_form_cs_1\bin\Debug\Air-conditioning timer.pdb
+C:\Users\kk693\Desktop\AI冷氣\windows_form_cs_1\windows_form_cs_1\obj\Debug\Air-conditioning timer.exe
+C:\Users\kk693\Desktop\AI冷氣\windows_form_cs_1\windows_form_cs_1\obj\Debug\Air-conditioning timer.pdb
+C:\Users\kk693\Desktop\冷氣自動控制\windows_form_cs_1\windows_form_cs_1\bin\Debug\Air-conditioning timer.exe.config
+C:\Users\kk693\Desktop\冷氣自動控制\windows_form_cs_1\windows_form_cs_1\bin\Debug\Air-conditioning timer.exe
+C:\Users\kk693\Desktop\冷氣自動控制\windows_form_cs_1\windows_form_cs_1\bin\Debug\Air-conditioning timer.pdb
+C:\Users\kk693\Desktop\冷氣自動控制\windows_form_cs_1\windows_form_cs_1\obj\Debug\windows_form_cs_1.csprojAssemblyReference.cache
+C:\Users\kk693\Desktop\冷氣自動控制\windows_form_cs_1\windows_form_cs_1\obj\Debug\windows_form_cs_1.Form1.resources
+C:\Users\kk693\Desktop\冷氣自動控制\windows_form_cs_1\windows_form_cs_1\obj\Debug\windows_form_cs_1.Properties.Resources.resources
+C:\Users\kk693\Desktop\冷氣自動控制\windows_form_cs_1\windows_form_cs_1\obj\Debug\windows_form_cs_1.csproj.GenerateResource.cache
+C:\Users\kk693\Desktop\冷氣自動控制\windows_form_cs_1\windows_form_cs_1\obj\Debug\windows_form_cs_1.csproj.CoreCompileInputs.cache
+C:\Users\kk693\Desktop\冷氣自動控制\windows_form_cs_1\windows_form_cs_1\obj\Debug\Air-conditioning timer.exe
+C:\Users\kk693\Desktop\冷氣自動控制\windows_form_cs_1\windows_form_cs_1\obj\Debug\Air-conditioning timer.pdb
+C:\Users\kk693\Desktop\冷氣自動控制\windows_form_cs_2\windows_form_cs_1\obj\Debug\windows_form_cs_1.csprojAssemblyReference.cache
+C:\Users\kk693\Desktop\冷氣自動控制\windows_form_cs_2\windows_form_cs_1\obj\Debug\windows_form_cs_1.Form1.resources
+C:\Users\kk693\Desktop\冷氣自動控制\windows_form_cs_2\windows_form_cs_1\obj\Debug\windows_form_cs_1.Properties.Resources.resources
+C:\Users\kk693\Desktop\冷氣自動控制\windows_form_cs_2\windows_form_cs_1\obj\Debug\windows_form_cs_1.csproj.GenerateResource.cache
+C:\Users\kk693\Desktop\冷氣自動控制\windows_form_cs_2\windows_form_cs_1\obj\Debug\windows_form_cs_1.csproj.CoreCompileInputs.cache
+C:\Users\kk693\Desktop\冷氣自動控制\windows_form_cs_2\windows_form_cs_1\obj\Debug\Air-conditioning timer.exe
+C:\Users\kk693\Desktop\冷氣自動控制\windows_form_cs_2\windows_form_cs_1\obj\Debug\Air-conditioning timer.pdb
+C:\Users\kk693\Desktop\冷氣自動控制\windows_form_cs_2\windows_form_cs_1\bin\Debug\Air-conditioning timer.exe.config
+C:\Users\kk693\Desktop\冷氣自動控制\windows_form_cs_2\windows_form_cs_1\bin\Debug\Air-conditioning timer.exe
+C:\Users\kk693\Desktop\冷氣自動控制\windows_form_cs_2\windows_form_cs_1\bin\Debug\Air-conditioning timer.pdb
