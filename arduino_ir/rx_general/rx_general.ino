@@ -6,7 +6,7 @@ decode_results results; // 儲存訊號的結構
 
 void setup()
 {
-  Serial.begin(115200);
+  Serial.begin(250000);
   Serial.println("Start");
   irrecv.blink13(true); // 設為true的話，當收到訊號時，腳位13的LED便會閃爍
   irrecv.enableIRIn(); // 啟動接收

@@ -4,7 +4,7 @@ IRsend irsend;
 
 void setup()
 {
-  Serial.begin(115200);
+  Serial.begin(250000);
   Serial.println("Start");
 }
 bool bt_temp=0;

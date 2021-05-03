@@ -1,4 +1,4 @@
-const int IR_rec_pin = 2;             // IR 接收器輸出腳位
+const int IR_rec_pin = 5;             // IR 接收器輸出腳位
 int IRstate = LOW;                    // IR 接收器輸出腳位狀態
 int IRstate_last = LOW;               // IR 接收器輸出腳位狀態(上一次)
 unsigned long int time_last = 0;      // 上一次 IRstate 變化的時間
