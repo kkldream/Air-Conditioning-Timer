@@ -7,8 +7,8 @@
 #include <IRsend.h>
 #include "key_header.h"
 
-const char* ssid     = "kk_2.4G";
-const char* password = "88888888";
+const char* ssid     = "isip_2.4G";
+const char* password = "isip7368";
 
 const uint16_t kIrLed = 16;
 const int photoresistor_pin = A0;
@@ -24,12 +24,29 @@ void handle_photoresistor() {
   int var = analogRead(photoresistor_pin);
   server.send(200, "text/plain", String(var));
 }
-void handle_ac_on() {
-  irsend.sendRaw(key_on_rawData, 211, 38);
+void handle_send_key_fast() {
+  irsend.sendRaw(KEY_FAST, 131, 38);
+  server.send(200, "text/plain", "success");
+}
+void handle_send_key_mid() {
+  irsend.sendRaw(KEY_MID, 131, 38);
+  server.send(200, "text/plain", "success");
+}
+void handle_send_key_weak() {
+  irsend.sendRaw(KEY_WEAK, 131, 38);
+  server.send(200, "text/plain", "success");
+}
+void handle_send_key_sleep() {
+  irsend.sendRaw(KEY_SLEEP, 131, 38);
+  server.send(200, "text/plain", "success");
+}
+void handle_send_key_shutdown() {
+  irsend.sendRaw(KEY_SHUTDOWN, 131, 38);
   server.send(200, "text/plain", "success");
 }
 
 void setup(void){
+  pinMode(LED_BUILTIN, OUTPUT);
   irsend.begin();
   pinMode(photoresistor_pin, INPUT);
   Serial.begin(250000);
@@ -38,7 +55,10 @@ void setup(void){
 
   // Wait for connection
   while (WiFi.status() != WL_CONNECTED) {
-    delay(500);
+    delay(100);
+    digitalWrite(LED_BUILTIN, LOW);
+    delay(100);
+    digitalWrite(LED_BUILTIN, HIGH);
     Serial.print(".");
   }
   Serial.println("");
@@ -53,7 +73,11 @@ void setup(void){
 
   server.on("/", handle_index);
   server.on("/photoresistor", handle_photoresistor);
-  server.on("/ac_on", handle_ac_on);
+  server.on("/send_key_fast", handle_send_key_fast);
+  server.on("/send_key_mid", handle_send_key_mid);
+  server.on("/send_key_weak", handle_send_key_weak);
+  server.on("/send_key_sleep", handle_send_key_sleep);
+  server.on("/send_key_shutdown", handle_send_key_shutdown);
   server.begin();
   Serial.println("HTTP server started");
 }

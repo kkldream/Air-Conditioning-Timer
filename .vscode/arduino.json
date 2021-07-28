@@ -1,6 +1,6 @@
 {
-    "port": "COM7",
-    "configuration": "cpu=atmega328old",
-    "board": "arduino:avr:nano",
+    "port": "COM9",
+    "configuration": "CpuFrequency=80,UploadSpeed=921600,FlashSize=4M3M",
+    "board": "esp8266:esp8266:d1_mini",
     "sketch": "arduino_ir\\rx_general\\rx_general.ino"
 }
