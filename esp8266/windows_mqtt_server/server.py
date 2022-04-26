@@ -37,8 +37,8 @@ def main():
     client = mqtt.Client()
     client.on_connect = on_connect
     client.on_message = on_message
-    client.username_pw_set("zhuang","12332162")
-    client.connect("49.159.197.173", 1883, 60)
+    client.username_pw_set("*","*")
+    client.connect("*", 1883, 60)
     client.loop_forever()
     # Thread(target=client_loop, args=[client,]).start()
     # while True:
