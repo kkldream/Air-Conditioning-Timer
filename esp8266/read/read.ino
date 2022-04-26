@@ -35,8 +35,10 @@ void IR_rec_Check() {
     else if ( (dT < durationMax) && (dT > durationMin) ) {
       isIdle = false; //進入接收中狀態
       if (IRstate == HIGH) Serial.print(dT);
-      else  Serial.print( 0 - dT );
-      Serial.print(" ");
+//      else  Serial.print( 0 - dT );
+      else  Serial.print( dT );
+//      Serial.print(" ");
+      Serial.print(",");
     }
     // 記錄此次時間
     time_last = timeNow;
